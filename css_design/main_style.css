@@ -88,8 +88,43 @@ a {
     vertical-align: middle;
 }
 
-.res_exp h3 {
-  display: flex;        /* Turns the container into a flexbox */
-  align-items: center;  /* Vertically aligns the text centers */
-  gap: 50px; 
+.res_exp_header {
+    display: flex;
+    margin-left: 65vh;
+    margin-right: 120px;
+    flex-direction: row;    
+    justify-content: space-between !important; 
+    align-items: center;
+    width: 80vh;
+    text-align:center;
+    padding-bottom: 0;
+}
+
+.res_exp{
+    display:flex;
+    flex-direction:column;
+    width: 100vh;
+    margin-bottom: 10px;
+}
+
+ul.exp_desc{
+    text-align:left;
+    list-style-type: disc;
+    margin-left: 70vh;
+}
+
+pre{
+    background: rgb(44, 43, 43);
+    color: rgb(31, 217, 87)
+}
+
+section{
+    padding-top: 50px;
+}
+
+.exp_loc{
+    top:0;
+    font-style: italic;
+    margin-left: 65vh;
+    text-align: left;
 }
