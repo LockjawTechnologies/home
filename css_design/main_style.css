@@ -107,10 +107,12 @@ a {
     margin-bottom: 10px;
 }
 
-ul.exp_desc{
+.exp_desc li{
+    width: 70vh !important;
     text-align:left;
     list-style-type: disc;
     margin-left: 70vh;
+    margin-right: 65vh;
 }
 
 pre{
@@ -164,4 +166,11 @@ section{
         opacity: 0.8;
     }    
 
+}
+
+ul.cv_gpa{
+    align-items: center;
+    text-align:left;
+    list-style-type: disc;
+    margin-left: 70vh;
 }
